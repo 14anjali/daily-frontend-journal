@@ -15,7 +15,7 @@ function Search(){
     placeholder="Search..."
     value={query}
     onChange={(e)=>setQuery(e.target.value)}
-    
+
     />
     <ul>
         {filterItems.map((item,index)=>(
