@@ -31,3 +31,7 @@ The event loop is a core mechanism in js that allows  the single threaded langua
 The microtask queue has higher priority and is processed before the callback (macrotask) queue, which contains events like setTimeout, setInterval, and I/O callbacks.
 
 JavaScript appears asynchronous because its runtime environment handles time-consuming operations like network requests and file I/O outside the main thread, allowing the event loop to continue executing other code.
+
+# Async behavior
+
+JavaScript's Asynchronous behavior allows time -consuming operations like Api calls or timers to run in the background without blocking the main thread.these tasks are handled using callbacks,promises,or async/await and are coordinated by the event loop , ensureing the ui remains responsive and the application does not freeze.
